@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 LSTM From Scratch: Unboxing the Black Box
+# 🧠 LSTM From Scratch
 
 *No `PyTorch`. No `TensorFlow`. Just pure math, matrices, and `numpy`.*
 
