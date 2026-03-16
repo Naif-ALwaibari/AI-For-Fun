@@ -1,0 +1,15 @@
+
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+.env
+
+check_models.py
+test_cli.py
+model_chat_log.txt
+*.log
+
+.DS_Store
