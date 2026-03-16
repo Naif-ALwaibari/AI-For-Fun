@@ -18,8 +18,7 @@ async def root(request: Request):
 async def chat(message: str):
     def event_stream():
         for chunk in stream_model_response(message):
-            # Send each chunk as a JSON-encoded SSE data field
-            # This properly handles newlines, special chars, etc.
+
             yield f"data: {json.dumps(chunk, ensure_ascii=False)}\n\n"
         yield "data: [DONE]\n\n"
 
